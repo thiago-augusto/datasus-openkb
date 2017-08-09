@@ -1,16 +1,16 @@
 
 .val-error{
-	color: #d9534f;
+    color: #d9534f;
 }
 
 @media (max-width: 979px) { 
-	body { 
-		padding-bottom: 20px; 
-	} 
-	
-	.view_count, #preview-wrapper {
-		display: none;
-	}
+    body { 
+        padding-bottom: 20px; 
+    } 
+    
+    .view_count, #preview-wrapper {
+        display: none;
+    }
     
     #editor-wrapper {
         padding-top: 20px;

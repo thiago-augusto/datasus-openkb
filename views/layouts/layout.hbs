@@ -39,13 +39,13 @@
       <meta name="keywords" content="openKB">
     {{/if}}
     <meta property="og:type" content="article" />
-    <meta property="og:image" content="{{current_url}}/logo.png" />
+    <meta property="og:image" content="{{current_url}}/datasus-logo.png" />
     <meta property="og:url" content="{{fullUrl}}" />
     <link rel="canonical" href="{{fullUrl}}" />
     <link rel="stylesheet" href="{{app_context}}/stylesheets/flatly.bootstrap.min.css">
     <link rel="stylesheet" href="{{app_context}}/simplemde/simplemde.min.css">
     <link rel="stylesheet" href="{{app_context}}/stylesheets/github{{config.settings.env}}.css">
-    <link rel="stylesheet" href="{{app_context}}/themes/datasus/css/style{{config.settings.env}}.css">
+    <link rel="stylesheet" href="{{app_context}}/themes/datasus-openkb/css/style{{config.settings.env}}.css">
     <link rel="stylesheet" href="{{app_context}}/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{app_context}}/stylesheets/mermaid{{config.settings.env}}.css">
     <link rel="stylesheet" href="{{app_context}}/stylesheets/bootstrap-tokenfield{{config.settings.env}}.css">
@@ -102,10 +102,10 @@
             <span class="icon-bar"></span>
           </button>
             {{#ifCond config.settings.show_website_logo '===' true}}
-              <a class="navbar-brand brand-image" href="{{app_context}}/"><img src="{{app_context}}/themes/datasus/images/datasus-logo.png" width="140"></a>
+              <a class="navbar-brand brand-image" href="{{app_context}}/"><img src="{{app_context}}/themes/datasus-openkb/images/datasus-logo.png" width="140"></a>
             {{else}}
                 {{#ifCond config.settings.website_title '===' 'openKB'}}
-                  <a class="navbar-brand brand-image" href="{{app_context}}/"><img src="{{app_context}}/themes/datasus/images/datasus-logo.png" width="140"></a>
+                  <a class="navbar-brand brand-image" href="{{app_context}}/"><img src="{{app_context}}/themes/datasus-openkb/images/datasus-logo.png" width="140"></a>
                 {{else}}
                   <a class="navbar-brand" href="{{app_context}}/">{{config.settings.website_title}}</a>
                 {{/ifCond}}
