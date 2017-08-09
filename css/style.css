@@ -241,3 +241,7 @@ html{
     cursor: inherit;
     display: block;
 }
+
+hr{
+    border-top: 2px dashed #E0E0E0;
+}
