@@ -291,7 +291,7 @@ thead {
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
 }
 
-ol{
+ol#breadcrumbs-one{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -369,4 +369,23 @@ ol{
 #breadcrumbs-one .current::after,
 #breadcrumbs-one .current::before{
     content: normal;  
+}
+
+span.fa-lock{
+    text-align: right;    
+    border-radius: 50%;
+    padding: 20px 30px;
+    position: relative;    
+    left:  200px;
+    background: #2c3e50;
+    color: #fff
+}
+
+.form-signin-heading {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form-signin {
+    margin-top: 50px
 }
