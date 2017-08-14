@@ -1,7 +1,7 @@
-<div class="row">
+<div class="row search">
 	<form action="{{app_context}}/search" id="search_form" method="post">
         {{#if config.settings.show_featured_articles}}
-		    <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 search_bar">
+		    <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 search_bar">
         {{else}}
             <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 search_bar">
         {{/if}}
@@ -21,7 +21,7 @@
 </div>
 <div class="row">
     {{#if config.settings.show_featured_articles}}
-        <div class="col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1">
+        <div class="col-md-2 col-md-offset-2 col-lg-2 col-lg-offset-2">
             <div style="margin-top: 30px;">
                 <ul class="list-group">
                     <li class="list-group-item list-group-heading">{{__ "Featured articles"}}</li>
@@ -35,7 +35,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-md-8 col-lg-8">
+        <div class="col-md-6 col-lg-6">
     {{else}}
         <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
     {{/if}}

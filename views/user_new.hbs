@@ -1,10 +1,10 @@
 <div class="col-md-12">
 	<div class="row">
-		<div class="col-md-6 col-md-offset-3">
-			<ol class="breadcrumb">
+		<div class="col-md-8 col-md-offset-2">
+			<ol id="breadcrumbs-one">
 	  			<li><a href="{{app_context}}/">{{__ "Home"}}</a></li>
 	 			<li><a href="{{app_context}}/Users">{{__ "Users"}}</a></li>
-	  			<li class="active">{{__ "New user"}}</li>
+	  			<li><a href="" class="current">{{__ "New user"}}</a></li>
 			</ol>
 			<h1>{{__ "New user"}}</h1>
 			<form method="post" id="edit_form" action="{{app_context}}/user_insert" data-toggle="validator">

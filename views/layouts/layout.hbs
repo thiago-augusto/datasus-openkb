@@ -45,7 +45,7 @@
     <link rel="stylesheet" href="{{app_context}}/stylesheets/flatly.bootstrap.min.css">
     <link rel="stylesheet" href="{{app_context}}/simplemde/simplemde.min.css">
     <link rel="stylesheet" href="{{app_context}}/stylesheets/github{{config.settings.env}}.css">
-    <link rel="stylesheet" href="{{app_context}}/themes/datasus-openkb/css/style{{config.settings.env}}.css">
+    <link rel="stylesheet" href="{{app_context}}/themes/{{config.settings.theme}}/css/style{{config.settings.env}}.css">
     <link rel="stylesheet" href="{{app_context}}/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{app_context}}/stylesheets/mermaid{{config.settings.env}}.css">
     <link rel="stylesheet" href="{{app_context}}/stylesheets/bootstrap-tokenfield{{config.settings.env}}.css">
@@ -53,6 +53,7 @@
     <link rel="stylesheet" href="{{app_context}}/stylesheets/jpushmenu{{config.settings.env}}.css">
     <link rel='icon' href='{{app_context}}/favicon.png' />
     <script src="{{app_context}}/jquery/jquery.min.js"></script>
+    <script src="http://thecodeplayer.com/uploads/js/prefixfree-1.0.7.js" type="text/javascript" type="text/javascript"></script>
     <script>{{{state}}}</script>
     <script src="{{app_context}}/bootstrap/js/bootstrap.min.js"></script>
     {{#ifCond title '===' 'Settings'}}
@@ -94,7 +95,7 @@
     <!-- Static navbar -->
       <nav class="navbar navbar-default navbar-static-top">
       <div class="container-fluid">
-        <div class="navbar-header">
+        <div class="navbar-header row">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">{{__ "Toggle navigation"}}</span>
             <span class="icon-bar"></span>
@@ -159,6 +160,7 @@
         </div>
         </div>
       </nav>
+      <!-- End Static navbar -->
     <div class="container-fluid">
       {{{body}}}
     </div>

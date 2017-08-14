@@ -1,10 +1,12 @@
 <div class="col-md-12">
     <div class="row">
     <div class="col-md-8 col-md-offset-2">
-    <ol class="breadcrumb">
-        <li><a href="{{app_context}}/">{{__ "Home"}}</a></li>
-        <li class="active">{{__ "Settings"}}</li>
-    </ol>
+
+        <ol id="breadcrumbs-one">
+            <li><a href="{{app_context}}/">{{__ "Home"}}</a></li>
+            <li><a href="" class="current">{{__ "Settings"}}</a></li>
+        </ol>
+
         <ul class="nav nav-tabs" role="tablist" id="settingsTabs">
             <li role="presentation" class="active"><a href="#website" aria-controls="website" role="tab" data-toggle="tab">{{__ "Website"}}</a></li>
             <li role="presentation"><a href="#article" aria-controls="article" role="tab" data-toggle="tab">{{__ "Article"}}</a></li>
